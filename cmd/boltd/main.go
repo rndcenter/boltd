@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/boltdb/bolt"
+	"github.com/coreos/bbolt"
 	"github.com/boltdb/boltd"
 )
 

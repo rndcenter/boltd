@@ -3,7 +3,7 @@
 <%% import "net/http" %%>
 <%% import "strings" %%>
 <%% import "unsafe" %%>
-<%% import "github.com/boltdb/bolt" %%>
+<%% import "github.com/coreos/bbolt" %%>
 
 <%
 p, ids, err := find(tx, directID, indexes)

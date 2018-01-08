@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/boltdb/bolt"
+	"github.com/coreos/bbolt"
 	"github.com/boltdb/boltd/templates"
 )
 

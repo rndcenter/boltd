@@ -8,7 +8,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/boltdb/bolt"
+	"github.com/coreos/bbolt"
 )
 
 //line error.ego:1

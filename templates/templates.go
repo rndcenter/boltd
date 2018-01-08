@@ -10,7 +10,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	"github.com/boltdb/bolt"
+	"github.com/coreos/bbolt"
 )
 
 // tostr converts a byte slice to a string if all characters are printable.
